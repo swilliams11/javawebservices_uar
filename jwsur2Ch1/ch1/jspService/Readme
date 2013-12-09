@@ -1,0 +1,5 @@
+To compile and deploy: ant -Dwar.name=predictions deploy
+To test:               curl -v http://localhost:8185/predictions/
+curl --request POST --data "foo=bar" http://localhost:8185/predictions/
+
+
